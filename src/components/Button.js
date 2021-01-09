@@ -23,5 +23,6 @@ const Root = styled.TouchableOpacity`
 const Text = styled.Text`
   color: ${({ textColor }) => textColor};
   font-weight: 600;
-  letter-spacing: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 `;
